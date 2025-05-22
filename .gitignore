@@ -1,3 +1,6 @@
 vendor
 .composer
 .phpunit.result.cache
+.twig-cache
+.env
+*.sqlite
