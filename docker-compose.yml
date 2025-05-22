@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    container_name: cadernodecontas
+    working_dir: /var/www
+    volumes:
+      - .:/var/www
+    ports:
+      - "3300:80"

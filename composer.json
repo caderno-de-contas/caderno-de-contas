@@ -1,0 +1,29 @@
+{
+    "name": "caderno-de-contas/caderno-de-contas",
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "pestphp/pest": "^3.8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "src/domain/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gilglecio oliveira",
+            "email": "gilglecio_765@hotmail.com"
+        }
+    ],
+    "scripts": {
+        "phpstan": [
+            "./vendor/bin/phpstan analyse"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
