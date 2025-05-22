@@ -4,3 +4,4 @@ vendor
 .twig-cache
 .env
 *.sqlite
+.tmp
